@@ -1,0 +1,33 @@
+.work-container{
+    background-color: #B38D97;
+}
+
+.work-experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 4rem;
+}
+
+.work-experience{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    background-color: #D5ACA9;
+}
+
+.work-experience h3{
+    font-size: 18px;
+    margin-bottom: 10 px;
+}
+
+.work-experience p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.work-experience strong {
+    font-weight: bold;
+}
+
