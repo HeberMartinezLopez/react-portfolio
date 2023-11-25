@@ -1,0 +1,19 @@
+.gallery-container{
+    background-color: #D5ACA9;
+
+}
+
+.gogo-dance-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 4rem;
+}
+
+.gallery-item{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    background-color: #C5BAAF;
+}
