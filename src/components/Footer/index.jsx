@@ -23,4 +23,6 @@ const Footer = () => {
             </section>
         </div>
     )
-}
+};
+
+export default Footer;
