@@ -1,17 +1,19 @@
 .contact-container{
     padding: 4rem;
-    background-color: #EBCFB2;
+    background-color: #177E89;
+    width: 100%;
+    height: 80vh;
     }
     
     .contact-form{
     padding: 3rem;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
-    background-color: #B38D97;
+    background-color: #DEE7E7;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    color: #106575;
     }
     .contact-form button{
         width: 10rem;

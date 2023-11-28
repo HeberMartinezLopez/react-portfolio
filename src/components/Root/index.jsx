@@ -12,8 +12,8 @@ const Root = () => {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/work' className='nav-link'>
-                        <span>Work Experience</span>
+                    <Link to='/resume' className='nav-link'>
+                        <span>Resume</span>
                     </Link>
                 </li>
                 <li className='nav-item'>

@@ -1,11 +1,12 @@
 import React from 'react';
 import './about.css';
+import coolDude from '../../images/coolDude.jpg'
 
 const About = () => {
     return (
         <div className='about-container'>
             <div className='img-container'>
-                <img src='' alt=''/>
+                <img src={coolDude} alt=''/>
             </div>
             <section className='about-me-content'>
                 <p>Hello! My name is Heber Martinez Lopez, a Junior Developer and a multi-musician based in the beautiful Bay Area. </p>

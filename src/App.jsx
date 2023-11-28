@@ -8,7 +8,7 @@ import Root from './components/Root';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-import Work from './components/Work';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
      <Route index element={<About/>} />
      <Route path="/gallery" element={<Gallery/>} />
      <Route path="/contact" element={<Contact/>} />
-     <Route path="/work"  element={<Work/>} />
+     <Route path="/resume"  element={<Resume/>} />
    </Route>
  )
 )
